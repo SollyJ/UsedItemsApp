@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 선택 되었을땐 검은색 -->
+    <item android:color="@color/black"
+        android:state_checked="true"/>
+
+    <!-- 선택되지 않았을땐 회색 -->
+    <item android:color="@color/gray"
+        android:state_checked="false"/>
+
+</selector>
